@@ -49,7 +49,6 @@ ActiveRecord::Schema.define(version: 2021_02_25_004136) do
     t.text "concept"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "user_id"
   end
 
   create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
